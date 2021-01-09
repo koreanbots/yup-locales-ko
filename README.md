@@ -1,5 +1,7 @@
 # Yup korean locale
 
+[NPM](https://www.npmjs.com/package/yup-locales-ko)
+
 Meet the yup module in Korean using `yup.setLocale()`.
 
 ## Install
