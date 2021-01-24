@@ -1,6 +1,5 @@
 {
   "name": "yup-locales-ko",
-  "type": "module",
   "version": "1.0.0",
   "description": "Meet the yup module in Korean",
   "main": "index.js",
