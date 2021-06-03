@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "wonderlandpark<wonderlandpark@callisto.team>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "josa": "^3.0.1"
+  }
 }
