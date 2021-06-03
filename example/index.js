@@ -1,11 +1,11 @@
-import yup from 'yup'
-import yupLocalesKo from '../index.js'
+const yup = require('yup')
+const yupLocalesKo = require('../index')
 
 yup.setLocale(yupLocalesKo)
 
 const schema = yup.object().shape({
-  name: yup.string().required(),
-  age: yup.number().min(18),
+  name: yup.string().required().label('이름'),
+  age: yup.number().max(18).label('나이'),
 })
 
 const res = schema.validateSync({
@@ -16,4 +16,4 @@ const res = schema.validateSync({
 })
 
 console.log(res)
-// ValidationError: age은(는) 18보다 크거나 같아야합니다
+// 나이는 18보다 작거나 같아야합니다
